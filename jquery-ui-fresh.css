@@ -66,9 +66,9 @@
 /* Interaction states
 ----------------------------------*/
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #dfdfdf; background-color: #f1f1f1; background-image: -ms-linear-gradient(top, #f9f9f9, #ececec); background-image: -moz-linear-gradient(top, #f9f9f9, #ececec); background-image: -o-linear-gradient(top, #f9f9f9, #ececec); background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec)); background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec); background-image: linear-gradient(top, #f9f9f9, #ececec); font-weight: normal; color: #333333; }
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #333333; text-decoration: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #21759b; text-decoration: none; }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #ccc; background-color: #ececec; background-image: -ms-linear-gradient(top, #ececec, #f9f9f9); background-image: -moz-linear-gradient(top, #ececec, #f9f9f9); background-image: -o-linear-gradient(top, #ececec, #f9f9f9); background-image: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#f9f9f9)); background-image: -webkit-linear-gradient(top, #ececec, #f9f9f9); background-image: linear-gradient(top, #ececec, #f9f9f9);  font-weight: normal; color: #000000; }
-.ui-state-hover a, .ui-state-hover a:hover { color: #000000; text-decoration: none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #d54e21; text-decoration: none; }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #dfdfdf; background: #ffffff; font-weight: normal; color: #333333; }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #333333; text-decoration: none; }
 .ui-widget :active { outline: none; }
@@ -88,11 +88,11 @@
 ----------------------------------*/
 
 /* states and images */
-.ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_333333_256x240.png); }
-.ui-widget-content .ui-icon {background-image: url(images/ui-icons_333333_256x240.png); }
-.ui-widget-header .ui-icon {background-image: url(images/ui-icons_999999_256x240.png); }
-.ui-state-default .ui-icon { background-image: url(images/ui-icons_333333_256x240.png); }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_333333_256x240.png); }
+.ui-icon { width: 16px; height: 16px; background-image: url(images/ui-icons_21759b_256x240.png); }
+.ui-widget-content .ui-icon {background-image: url(images/ui-icons_21759b_256x240.png); }
+.ui-widget-header .ui-icon {background-image: url(images/ui-icons_21759b_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(images/ui-icons_21759b_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(images/ui-icons_d54e21_256x240.png); }
 .ui-state-active .ui-icon {background-image: url(images/ui-icons_333333_256x240.png); }
 .ui-state-highlight .ui-icon {background-image: url(images/ui-icons_21759b_256x240.png); }
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(images/ui-icons_cc0000_256x240.png); }
